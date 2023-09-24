@@ -1,10 +1,19 @@
+body {
+    background-color: #f9fcff;
+}
+
+
+
+
+
 
 /* nav bar  */
 
-.color-white{
+.color-white {
     color: antiquewhite !important;
 }
- /* main slide  */
+
+/* main slide  */
 
 .main-slide1 {
     display: flex;
@@ -27,7 +36,7 @@
 .main-btn-srch {
     display: flex;
     background-color: white;
-    position:absolute;
+    position: absolute;
     margin-top: 490px;
     width: 67%;
     margin-left: 250px;
@@ -44,9 +53,9 @@
 
 
 .inputs input {
-border: none;
-outline: none;
-margin-top: 25px;
+    border: none;
+    outline: none;
+    margin-top: 25px;
 }
 
 div.inputs {
@@ -79,7 +88,7 @@ div.inputs {
     height: 200px;
 }
 
-.four-n0{
+.four-n0 {
     display: flex;
 }
 
@@ -107,14 +116,383 @@ div.inputs {
 .main-collections {
     display: flex;
     background-color: #f9fcff;
+    height: 350px;
 }
 
 .car img {
     height: 180px;
     width: 250px;
-    margin-top: 50px ;
+    margin-top: 50px;
 }
 
 .car1 img {
     margin-left: 80px;
+}
+
+/* slide-4  */
+
+.slide4 {
+    background-color: rgb(255, 248, 239);
+    height: 220px;
+}
+
+
+.slide4 h1 {
+    margin-left: 470px;
+    margin-top: 100px;
+}
+
+.slide4 p {
+    margin-left: 450px;
+}
+
+.slide4 .select-optipn {
+    margin-left: 380px;
+}
+
+.slide4 select {
+    margin-left: 8px;
+    background: rgb(255, 248, 239);
+    padding: 5px 15px;
+    border-radius: 2px;
+
+}
+
+/* slide-5  */
+
+.container .image {
+    border-radius: 20px;
+    margin-left: 35px;
+}
+
+/* slide-6  */
+
+.slide6 {
+    display: flex;
+}
+
+.slide6-img {
+    width: 45%;
+    margin-top: 5%;
+}
+
+
+.slide6-img img {
+
+    height: 300px;
+}
+
+.words {
+    margin-top: 70px;
+}
+
+
+/* slide 7  */
+
+.slide4-7 {
+    background-color: rgb(255, 248, 239);
+    height: 220px;
+}
+
+
+.slide4-7 h1 {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.slide4-7 p {
+    margin-left: 100px;
+}
+
+.slide4-7 .select-optipn {
+    margin-left: 80px;
+}
+
+.slide4-7 select {
+    margin-left: 8px;
+    background: rgb(255, 248, 239);
+    padding: 5px 15px;
+    border-radius: 2px;
+
+}
+
+/* slide-8  */
+.slide8 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #efefef; */
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card3 {
+    width: 320px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+/* .slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0;
+    border-radius: 10px;
+} */
+
+.name {
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+}
+.discription {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 25px 25px 0 25px;
+    height: 100%;
+    width: 100%;
+    background-color: #4070f4;
+}
+.button {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #4070f4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #265df2;
+}
+
+/* ------------faq-----------------  */
+.faq {
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.faq h2 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.accordion {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5pxs;
+}
+
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #dacfcf;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background: #e0dddd;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+
+.faq .email-signup {
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+
+.faq small {
+    font-size: 13px;
+}
+
+
+
+/* footer   */
+
+
+.footer {
+    background-color: rgb(40, 40, 180);
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: white;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+
+
+.copyright-text {
+    margin-left: 230px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* media- queries  */
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 100px;
+    }
+
+    nav button {
+        padding: 5px 10px;
+    }
+
+    .header-content {
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+    .email-signup button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .text-col,
+    .img-col {
+        flex-basis: 100%;
+    }
+
+    .features h2 {
+        font-size: 30px;
+
+    }
+
+    .features p {
+        font-size: 15px;
+    }
+
+    .row:nth-child(2),
+    .row:nth-child(4),
+    .row:nth-child(6) {
+        flex-direction: column-reverse;
+    }
+
+    .features .row {
+        padding: 10px 0;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .accordion .content {
+        font-size: 14px;
+    }
+
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    label::after {
+        font-size: 22px;
+    }
+
 }
