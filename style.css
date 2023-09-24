@@ -1,0 +1,120 @@
+
+/* nav bar  */
+
+.color-white{
+    color: antiquewhite !important;
+}
+ /* main slide  */
+
+.main-slide1 {
+    display: flex;
+    background-color: #f8f9fa;
+    position: absolute;
+    height: 550px;
+}
+
+.pera {
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.car-img {
+    margin-left: 220px;
+}
+
+/* inputs  */
+
+.main-btn-srch {
+    display: flex;
+    background-color: white;
+    position:absolute;
+    margin-top: 490px;
+    width: 67%;
+    margin-left: 250px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.input-btn button {
+    padding: 20px;
+    background-color: blue;
+    outline: none;
+}
+
+
+
+.inputs input {
+border: none;
+outline: none;
+margin-top: 25px;
+}
+
+div.inputs {
+    margin-left: 1%;
+}
+
+.line {
+    font-size: 40px;
+    opacity: 0.1;
+}
+
+
+/* slide 2  */
+
+.pera2 {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.pera2 h1 {
+    font-weight: 650;
+}
+
+.slide2 {
+    display: flex;
+    margin-top: 520px;
+    position: relative;
+    width: 100%;
+    background-color: #f9fcff;
+    height: 200px;
+}
+
+.four-n0{
+    display: flex;
+}
+
+.line2 {
+    font-size: 60px;
+    opacity: 0.2;
+    margin: 0px 75px;
+}
+
+.slide-3 {
+    background-color: #f9fcff;
+    display: flex !important;
+}
+
+.slide-3 h2 {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+
+/* cars collection  */
+
+
+
+.main-collections {
+    display: flex;
+    background-color: #f9fcff;
+}
+
+.car img {
+    height: 180px;
+    width: 250px;
+    margin-top: 50px ;
+}
+
+.car1 img {
+    margin-left: 80px;
+}
